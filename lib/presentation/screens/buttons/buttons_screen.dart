@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
-class CardsScreen extends StatelessWidget {
-  const CardsScreen({super.key});
+class ButtonsScreen extends StatelessWidget {
+  static const String name = 'buttons_screen';
+  const ButtonsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Cards Screen'),
+        title: const Text('Buttons Screen'),
       ),
       body: const Placeholder(),
     );
